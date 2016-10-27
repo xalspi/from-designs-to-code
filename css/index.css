@@ -1,0 +1,124 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  padding: 10px;
+  background-color: #eee;
+  border-bottom: 1px solid #ddd;
+}
+
+.top-nav {
+  position: absolute;
+  right: 30px;
+  top: 10px;
+}
+
+.site-title {
+  font-size: 18px;
+}
+
+.nav-link {
+  font-size: 18px;
+  padding: 0 6px;
+}
+
+.search-section {
+  padding: 80px 0 0 80px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.search-section input {
+  font-size: 17px;
+  font-weight: 500;
+  height: 30px;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+  padding: 0 5px 0 8px;
+  width: 400px;
+}
+
+.search-section button {
+  height: 30px;
+  background-color: white;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+  vertical-align: bottom;
+}
+
+.magnifying-glass-icon {
+  height: 100%;
+}
+
+.pages {
+  display: inline-block; /* Tricky, this could start wrapping!  */
+  font-size: 0;
+  margin-bottom: 30px;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+}
+
+.pages-button {
+  font-size: 16px;
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 3px;
+}
+
+.pages-display {
+  font-size: 16px;
+  display: inline-block;
+  padding: 8px 15px;
+  border-left: 1px solid #DDDDDD;
+  border-right: 1px solid #DDDDDD;
+}
+
+.listings {
+  list-style: none;
+}
+
+.listing {
+  margin-bottom: 15px;
+}
+
+.listing-date {
+ color: #999;
+ margin-right: 10px;
+}
+
+.listing-title {
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.listing-location {
+  display: inline-block;
+  color: #999;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* */

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Greg's List</title>
+  <meta charset="utf-8" name="description" content="Layout exercise on `position` property for Thinkful's front end web development course">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+
+  <!-- reset-->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+
+  <!-- styles -->
+  <link rel="stylesheet" href="css/index.css" />
+</head>
+<body>
+  <header>
+    <a href="#" class="site-title">Greg's List</a>
+    <nav class="top-nav">
+      <a href="#" class="nav-link">Post</a>
+      <a href="#" class="nav-link">Account</a>
+    </nav>
+  </header>
+  <section class="search-section">
+    <form action="">
+      <label for="search">Search Jobs</label>
+      <input type="text" id="search" placeholder="Developer, designer, internship...">
+      <button type="submit" class="search-button">
+        <img src="images/magnifying-glass.png" class="magnifying-glass-icon">
+      </button>
+    </form>
+  </section>
+  <nav class="pages">
+    <a class="pages-button">&lt; prev</a>
+    <span class="pages-display">1 to 100 of 179</span>
+    <a class="pages-button">next &lt;</a>
+  </nav>
+  <main>
+    <ul class="listings">
+      <li class="listing">
+        <span class="listing-date">June 22</span>
+        <a href="#" class="listing-title">Technical Project Manager</a>
+        <span class="listing-location">Midtown East</span>
+      </li>
+      <li class="listing">
+        <span class="listing-date">June 21</span>
+        <a href="#" class="listing-title">Frontend Developer</a>
+        <span class="listing-location">SoHo</span>
+      </li>
+      <li class="listing">
+        <span class="listing-date">June 20</span>
+        <a href="#" class="listing-title">Senior Python Developer / Cofounder</a>
+        <span class="listing-location">Flatiron</span>
+      </li>
+  </main>
+</body>
+</html>
